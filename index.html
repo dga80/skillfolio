@@ -11,27 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="landing.js"></script>
-
+    <script>
+      window.addEventListener('scroll', function() {
+        var header = document.getElementById('header');
+        if (window.scrollY > 0) {
+          header.classList.add('fixed');
+        } else {
+          header.classList.remove('fixed');
+        }
+      });
+    </script>
   </head>
   <body 
   class="bg-bkg text-white" style="background-image: url('./src/images/Desktop-1.jpg');" aria-hidden="true">
     <script type="module" src="/src/main.jsx"></script>
     <div id="parallax">
+      <nav class="menu sticky top-8 z-50 justify-center" >
+        <div>
+          <a href="#about">About Me</a>
+        </div>
+        <div>
+          <a href="#skills">Skills</a>
+        </div>
+        <div>
+          <a href="#projects">Projects</a>
+        </div>
+        <div>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
       <header class="min-h-screen flex flex-col justify-evenly items-center relative" id="header" class="fixed top-0 left-0 w-full bg-gray-900 text-white py-4 transition-opacity duration-300 opacity-100">
-          <nav class="menu">
-            <div>
-              <a href="#about">About Me</a>
-            </div>
-            <div>
-              <a href="#skills">Skills</a>
-            </div>
-            <div>
-              <a href="#projects">Projects</a>
-            </div>
-            <div>
-              <a href="#contact">Contact</a>
-            </div>
-          </nav>
         <img src="/src/assets/skillfolio.svg" alt="skill_title" class="max-w-4xl">
         <p class="max-w-xl text-sm -mt-20 text-right mr-10 ml-28">Check out my <em class="italic">skillfolio</em> to see how I blend my passion for graphic design, front-end development, and user experience to create awesome stuff on the web!</p>
       </header>
@@ -42,16 +51,19 @@
             <p class="text-left">After 20+ years in graphic design and advertising, I decided to change paths and completed a full-stack web programming bootcamp to embark on a new career in web development. With a solid foundation in all layers of development, from front-end to back-end, I am thrilled to create effective and visually appealing web solutions for my clients in this constantly evolving field. My previous experience in graphic design allows me to bring a unique perspective and combine my expertise in UX/UI to deliver visually attractive websites.</p>
           </div>
         </section>
-        <section aria-labelledby="headline" class="container flex flex-col justify-center text-center max-w-2xl h-screen" id="skills">
+        <section aria-labelledby="headline" class="container flex flex-col items-center justify-center text-center max-w-2xl h-screen" id="skills">
           <img src="/src/assets/Skills_title.svg" alt="skills_title" class="max-w-2xl">
           <div>
             <p class="text-center max-w-sm">I won't bore you with an endless list of things represented down here. Just take a quick look to make it more practical, hassle-free!</p>
           </div>
+          <img src="/src/assets/ITicons.svg" alt="ITicons" class="max-w-2xl mt-60">
+          <div>
         </section>
       </main>
       
       
       
     </div>
+    
   </body>
 </html>
