@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 663 510" style="enable-background:new 0 0 663 510;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Poppins-Regular';}
+	.st4{font-size:242.9185px;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter);}
+	.st6{fill:url(#SVGID_2_);}
+	.st7{mask:url(#SVGID_1_);}
+</style>
+<g id="Capa_2" class="st0">
+	<rect x="27" y="24" class="st1" width="611" height="460"/>
+</g>
+<g id="Capa_1">
+	<text transform="matrix(1 0 0 1 36.3281 242.6094)" class="st2 st3 st4">Skill</text>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="129.3" y="233.4" width="510.4" height="345.2">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="129.3" y="233.4" width="510.4" height="345.2" id="SVGID_1_">
+		<g class="st5">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="383.5" y1="427.3438" x2="383.5" y2="264.4641">
+				<stop  offset="2.833283e-02" style="stop-color:#000000"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<rect x="129" y="249" class="st6" width="509" height="197"/>
+		</g>
+	</mask>
+	<g class="st7">
+		<text transform="matrix(1 0 0 1 129.3281 439.6094)" class="st2 st3 st4">folio</text>
+	</g>
+</g>
+</svg>
