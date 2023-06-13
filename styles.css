@@ -1,40 +1,4 @@
-.menu {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .menu div {
-    margin-right: 50px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    position: relative;
-    opacity: 0.5; /* Opacidad por defecto */
-    transition: opacity 0.3s ease-in-out; /* Transición suave */
-  }
-  
-  .menu a::after {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .menu a:hover,
-  .menu a:hover::after {
-    opacity: 1; /* Opacidad al hacer hover */
-    transform: scaleX(1);
-  }
-  .hide-header {
-    opacity: 0;
-    pointer-events: none;
-  }
+
   html {
     scroll-behavior: smooth;
   }
